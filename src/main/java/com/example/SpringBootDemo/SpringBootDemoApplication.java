@@ -12,13 +12,13 @@ public class SpringBootDemoApplication implements CommandLineRunner {
 		SpringApplication.run(SpringBootDemoApplication.class, args);
 	}
 
-	Pulsar plsr;
-	SpringBootDemoApplication(Pulsar plsr)
+	Bike bike;
+	SpringBootDemoApplication(Bike bike)
 	{
-		this.plsr=plsr;
+		this.bike=bike;
 	}
 	@Override
 	public void run(String... args) throws Exception {
-		plsr.speed();
+		bike.speed();
 	}
 }

@@ -4,11 +4,12 @@ import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.stereotype.Component;
 
 @Component
-@ConditionalOnProperty(name = "select.bike", havingValue = "Pulsar")
-public class Pulsar implements Bike{
+@ConditionalOnProperty(name = "select.bike", havingValue = "Ninja")
+
+public class Ninja implements Bike{
     @Override
     public void speed()
     {
-        System.out.println("Top speed of pulsar is 150 kmph");
+        System.out.println("top speed of ninja is 350 kmph");
     }
 }
