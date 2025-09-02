@@ -1,5 +1,5 @@
-GitRepositoriesView.GitDirectories=
-GitRepositoriesView.GitDirectories.relative=
+GitRepositoriesView.GitDirectories=/Volumes/Private/HBE/2023 BATCH/Classroom Projects/SpringBoot/.git\:
+GitRepositoriesView.GitDirectories.relative=.git\:
 RepositoryGroups.uuids=
 core_autoIgnoreDerivedResources=false
 core_preferredMergeStrategy=jgit-default-mergeStrategy
